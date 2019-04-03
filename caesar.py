@@ -2,6 +2,9 @@ from helpers import alphabet_position, rotate_character
 
 
 def rot(text, rot):
+    '''
+    encryptedText = rot(text, value)
+    '''
     codedMessage = ""
     for ch in text:
         #x = rotate_character(ch, rot)
